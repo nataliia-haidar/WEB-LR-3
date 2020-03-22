@@ -1,0 +1,102 @@
+h2 {
+	font-weight: bold;
+	text-align: center;
+} 
+
+/* NAVIGATION */
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	list-style-type: none;
+
+}
+li {
+	 float: left;
+	 width: 20%;
+	 text-decoration: none;
+ }
+
+ ul li a {
+	 display: block;
+	 color: #696969;
+	 line-height: 4em;
+	 font-weight: bold;
+	 text-align: center;
+	 float: none;
+	 text-decoration: none;
+	 transition: 0.5s all;
+
+ }
+
+ul li a:hover {
+	color: #FFFFFF;
+	background-color: #919191;
+}
+
+
+ul li {
+	position: relative;
+}
+li ul {
+	position: absolute;
+	left: 100px;
+	top: 0;
+}
+
+/* HOME */
+#home {
+	background-color: #EADCC3;
+		width: 100%;
+}
+
+#home p {
+	margin-top: 10%;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 120%;
+	text-align: center;
+
+}
+
+/* MAIN AUTOBIOGRAPHY */
+#main_autobiography {
+	background-color: #FEDDCB;
+	padding: 5%;
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.2em;
+	width: 100%;
+}
+
+/* MAIN_HOBBY */
+#main_hobby {
+	background-color: #EADCC3;
+	padding: 5%;
+	text-align: left;
+	font-weight: bold;
+	font-size: 1.2em;
+	width: 100%;
+}
+
+/* GALLERY */
+.class div{
+	text-align: center;
+}
+
+img {
+	object-fit: contain;
+	padding: 2%;
+	height: 90%;
+	width: auto;
+	transform: scale(-1, 1); 
+}
+
+/* LEFT BAR - RIGHT BAR */
+#left_bar, #right_bar {
+	width: 10%;
+	text-align: center;
+	background-color: #FFFFFF;
+}
